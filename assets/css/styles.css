@@ -508,12 +508,25 @@ div.event::after {
 .realisation__social-icon{
     text-align: center;
     font-style: 30px;
+    display: flex;
+    text-align: center;
+    padding: 8px;
+    margin: .5rem 0;
+    border-radius: .5rem;
+    transition: .3s ease-out;
+    background-color: #fff;
+    color: #000;
+}
+.realisation__social-icon:hover{
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
 }
 .conten-icon-realisation{
     display: flex;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 .hide {
     display: none;
