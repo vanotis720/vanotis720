@@ -11,275 +11,397 @@
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
         <title>Vander Otis</title>
+        <style>
+            /* * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3feDfff 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.loader {
+    height: 50px;
+    transform-origin: bottom center;
+    animation: rotate 3s linear infinite;
+}
+
+.cercle {
+    display: inline-block;
+    background-color: purple;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    transform: scale(0);
+    animation: grow 1.5s linear infinite;
+    margin: -10px;
+}
+
+.cercle:nth-child(2) {
+    background-color: palevioletred;
+    animation-delay: 0.75s;
+}
+
+@keyframes rotate {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes grow {
+    50% {
+        transform: scale(1);
+    }
+} */
+        </style>
     </head>
     <body>
+        <div class="loader">
+            <div class="cercle"></div>
+            <div class="cercle"></div>
+        </div>
         <!--===== HEADER =====-->
-        <header class="l-header">
-            <nav class="nav bd-grid">
-                <div>
-                    <a href="#" class="nav__logo">Vander Otis</a>
-                </div>
-
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active">Accueil</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">A propos</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-                    </ul>
-                </div>
-
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
-        </header>
-
-        <main class="l-main">
-            <!--===== HOME =====-->
-            <section class="home" id="home">
-                <div class="home__container bd-grid">
-                    <h1 class="home__title"><span>Bon</span><br>jour.</h1>
-                    <p class="home__text">Je suis un développeur web senior, passionné par le développement web et le design. Je suis actuellement CEO de codelab.</p>
-                    <img src="assets/img/otis.png" alt="" class="home__img">
-                </div>
-            </section>
-            
-            <!--===== ABOUT =====-->
-            <section class="about section" id="about">
-                <h2 class="section-title">A propos</h2>
-
-                <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <img src="assets/img/otis.png" alt="">
-                    </div>
-
+        <div id="app">
+            <header class="l-header">
+                <nav class="nav bd-grid">
                     <div>
-                        <h2 class="about__subtitle">I'am Vander Otis</h2>
-                        <span class="about__profession">Fullstack web developer</span>
-                        <p class="about__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci consectetur, architecto quas fugiat, iste inventore facere repellendus delectus id, vitae blanditiis.</p>
-
-                        <div class="about__social">
-                            <a href="#" class="about__social-icon"><i class='bx bxl-linkedin' ></i></a>
-                            <a href="#" class="about__social-icon"><i class='bx bxl-github' ></i></a>
-                            <a href="#" class="about__social-icon"><i class='bx bxl-linkedin' ></i></a>
-                        </div>
+                        <a href="#" class="nav__logo">Vander Otis</a>
                     </div>
-                </div>
-            </section>
-             <!--===== SKILLS =====-->
-             <section class="skills section" id="skills">
-                <h2 class="section-title">Skills</h2>
-
-                <div class="skills__container bd-grid">
-                    <div class="skills__box">
-                        <h3 class="skills__subtitle">Development</h3>
-                        <span class="skills__name">Html</span>
-                        <span class="skills__name">Css</span>
-                        <span class="skills__name">Javascript</span>
-                        <span class="skills__name">Scss</span>
-                        <span class="skills__name">React</span>
-                        <span class="skills__name">Vue</span>
-                        
-                        <h3 class="skills__subtitle">Design</h3>
-                        <span class="skills__name">Figma</span>
-                        <span class="skills__name">Adobe XD</span>
-                        <span class="skills__name">Photoshop</span>
+    
+                    <div class="nav__menu" id="nav-menu">
+                        <ul class="nav__list">
+                            <li class="nav__item"><a href="#home" class="nav__link active">Accueil</a></li>
+                            <li class="nav__item"><a href="#about" class="nav__link">A propos</a></li>
+                            <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                            <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
+                            <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                        </ul>
                     </div>
-
-                    <div class="skills__img">
-                        <img src="img/skill.jpg" alt="">
+    
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class='bx bx-menu'></i>
                     </div>
-                </div>
-            </section>
-            <!--===== PORTFOLIO =====-->
-            
-            <h2 class="section-title">Parcours</h2>
-            <section class="timeline section">
-                <div class="vtl">
-                    <div class="event">
-                        <p class="date">11 Mar 2237 12:3</p>
-                        <p class="txt">Evil Cates invaded planet Doge.</p>
+                </nav>
+            </header>
+    
+            <main class="l-main">
+                <!--===== HOME =====-->
+                <section class="home" id="home">
+                    <div class="home__container bd-grid">
+                        <h1 class="home__title"><span>Bon</span><br>jour.</h1>
+                        <p class="home__text">Je suis un développeur web senior, passionné par le développement web et le design. Je suis actuellement CEO de codelab.</p>
+                        <img src="assets/img/otis.png" alt="" class="home__img">
                     </div>
-                    <div class="event">
-                        <p class="date">12 Mar 2237 14:23</p>
-                        <p class="txt">Cates ate Doge food.</p>
-                    </div>
-                    <div class="event">
-                        <p class="date">13 Mar 2237 20:12</p>
-                        <p class="txt">Cates took over the Doge beds.</p>
-                    </div>
-                    <div class="event">
-                        <p class="date">14 Mar 2237 08:11</p>
-                        <p class="txt">Hoomans to the rescue.</p>
-                    </div>
-                    <div class="event">
-                        <p class="date">15 Mar 2237 14:27</p>
-                        <p class="txt">Evil cates gone. Victory for good boys and girls.</p>
-                    </div>
-                </div>
-            </section>
-            <section class="portfolio-realisation">
-                <div class="container">
-                    <h1 class="section-title">Réalisations</h1>
-                        
-                    <div class="row">
-                        <div class="gallery">
-                            <div class="item" data-id="app">
-                                <a href="">
-                                    <div class="inner">
-                                        <img src="img/work2.jpg" alt="portfolio" />
-                                        <div class="overlay">
-                                            <span class="fa bx bxl-github"></span>
-                                            <h4>App Interface</h4>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="item" data-id="app">
-                                <a href="">
-                                    <div class="inner">
-                                        <img src="img/work2.jpg" alt="portfolio" />
-                                        <div class="overlay">
-                                            <span class="fa bx bxl-github"></span>
-                                            <h4>App Interface</h4>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="item" data-id="app">
-                                <a href="">
-                                    <div class="inner">
-                                        <img src="img/work2.jpg" alt="portfolio" />
-                                        <div class="overlay">
-                                            <span class="fa bx bxl-github"></span>
-                                            <h4>App Interface</h4>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="portfolio section" id="portfolio">
-                <h2 class="section-title">Blog</h2>
-
-                <div class="portfolio__container bd-grid">
-                    <div class="portfolio__img">
-                        <img src="img/work1.jpg" alt="">
-                        <div class="description-blog">
-                            <a href="#" class="portfolio__link-name">Héberger son site web sur github...</a>
-                        </div>
-                        <div class="portfolio__link">
-                            <a href="#" class="portfolio__link-name">Héberger son site web sur github...</a>
-                        </div>
-                    </div>
-                    <div class="portfolio__img">
-                        <img src="img/work2.jpg" alt="">
-                        <div class="description-blog">
-                            <a href="#" class="portfolio__link-name">Héberger son site web sur github...</a>
-                        </div>
-                        <div class="portfolio__link">
-                            <a href="#" class="portfolio__link-name">Héberger son site web sur github...</a>
-                        </div>
-                    </div>
-                    <div class="portfolio__img">
-                        <img src="img/work3.jpg" alt="">
-                        <div class="description-blog">
-                            <a href="#" class="portfolio__link-name">Héberger son site web sur github...</a>
-                        </div>
-                        <div class="portfolio__link">
-                            <a href="#" class="portfolio__link-name">Héberger son site web sur github...</a>
-                        </div>
-                    </div>
-                    <div class="portfolio__img">
-                        <img src="img/work4.jpg" alt="">
-                        <div class="description-blog">
-                            <a href="#" class="portfolio__link-name">Héberger son site web sur github...</a>
-                        </div>
-                        <div class="portfolio__link">
-                            <a href="#" class="portfolio__link-name">Héberger son site web sur github...</a>
-                        </div>
-                    </div>
-                    <div class="portfolio__img">
-                        <img src="img/work5.jpg" alt="">
-                        <div class="description-blog">
-                            <a href="#" class="portfolio__link-name">Héberger son site web sur github...</a>
-                        </div>
-                        <div class="portfolio__link">
-                            <a href="#" class="portfolio__link-name">Héberger son site web sur github...</a>
-                        </div>
-                    </div>
-                    <div class="portfolio__img">
-                        <img src="img/work6.jpg" alt="">
-                        <div class="description-blog">
-                            <a href="#" class="portfolio__link-name">Héberger son site web sur github...</a>
-                        </div>
-                        <div class="portfolio__link">
-                            <a href="#" class="portfolio__link-name">Héberger son site web sur github...</a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- ====== Partie Contact -->
-            <section class="contact section" id="contact">
-                <h2 class="section-title">Contact</h2>
-
-                <div class="contact__container bd-grid">
-                    <div class="contact__info">
-                        <h3 class="contact__subtitle">EMAIL</h3>
-                        <span class="contact__text">vanotis720@gmail.com</span>
-
-                        <h3 class="contact__subtitle">PHONE</h3>
-                        <span class="contact__text">+243 975 927 559</span>
-
-                        <h3 class="contact__subtitle">ADRESS</h3>
-                        <span class="contact__text">Lubumbashi, Gecamine</span>
-                    </div>
-
-                    <form action="" class="contact__form">
-                        <div class="contact__inputs">
-                            <input type="text" placeholder="Name" class="contact__input">
-                            <input type="mail" placeholder="Email" class="contact__input">
-                        </div>
-
-                        <textarea name="" placeholder="Votre message" cols="0" rows="10" class="contact__input"></textarea>
-
-                        <input type="submit" value="Envoyer" class="contact__button">
-                    </form>
-                </div>
-            </section>
-        </main>
-        <footer class="footer section">
-            <div class="footer__container bd-grid">
-                <div class="footer__data">
-                    <h2 class="footer__title">Vander Otis</h2>
-                    <p class="footer__text">I'm Vander Otis and this is my personal website</p>
-                </div>
-
-                <div class="footer__data">
-                    <h2 class="footer__title">EXPLORE</h2>
-                    <ul>
-                        <li><a href="#home" class="footer__link"><i class="bx bx-right-arrow-alt"></i>Home</a></li>
-                        <li><a href="#about" class="footer__link"><i class="bx bx-right-arrow-alt"></i>About</a></li>
-                        <li><a href="#skills" class="footer__link"><i class="bx bx-right-arrow-alt"></i>Skills</a></li>
-                    </ul>
-                </div>
+                </section>
                 
-                <div class="footer__data">
-                    <h2 class="footer__title">Suivez-moi</h2>
-                    <ul>
-                        <li><a href="#home" class="footer__link"><i class="bx bx-right-arrow-alt"></i>Facebook</a></li>
-                        <li><a href="#about" class="footer__link"><i class="bx bx-right-arrow-alt"></i>Linkedin</a></a></li>
-                        <li><a href="#skills" class="footer__link"><i class="bx bx-right-arrow-alt"></i>Github</a></a></li>
-                    </ul>
+                <!--===== ABOUT =====-->
+                <section class="about section" id="about">
+                    <h2 class="section-title">A propos</h2>
+    
+                    <div class="about__container bd-grid">
+                        <div class="about__img">
+                            <img src="assets/img/otis.png" alt="">
+                        </div>
+    
+                        <div>
+                            <h2 class="about__subtitle">I'am Vander Otis</h2>
+                            <span class="about__profession">Fullstack web developer</span>
+                            <p class="about__text">Je suis un développeur des solutions informatiques, co-fondateur et CEO de CodeLab DRC, j'ai aussi entièrement développé les plates-formes develeve.com et pentshi.com.</p>
+    
+                            <div class="about__social">
+                                <a href="https://www.instagram.com/vanotis720/" class="about__social-icon"><i class='bx bxl-instagram' ></i></a>
+                                <a href="https://twitter.com/otis_vander?t=1idTH_k_50XZH9Q6xuiAyw&s=09" class="about__social-icon"><i class='bx bxl-twitter' ></i></a>
+                                <a href="https://github.com/vanotis720" class="about__social-icon"><i class='bx bxl-github' ></i></a>
+                                <a href="https://www.linkedin.com/in/vanotis720/" class="about__social-icon"><i class='bx bxl-linkedin' ></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                 <!--===== SKILLS =====-->
+                 <section class="skills section" id="skills">
+                    <h2 class="section-title">Skills</h2>
+    
+                    <div class="skills__container bd-grid">
+                        <div class="skills__box">
+                            <h3 class="skills__subtitle">Back-end</h3>
+                            <span class="skills__name">PHP</span>
+                            <span class="skills__name">Laravel</span>
+                            <span class="skills__name">SQL/MYSQL</span>
+                            
+                            <h3 class="skills__subtitle">Front-end</h3>
+                            <span class="skills__name">CSS</span>
+                            <span class="skills__name">Bootstrap</span>
+                            <span class="skills__name">Javascript</span>
+    
+                            <h3 class="skills__subtitle">Mobile</h3>
+                            <span class="skills__name">React native</span>
+
+                            <h3 class="skills__subtitle">Gestion des projets</h3>
+                            <span class="skills__name">SCRUM</span>
+                        </div>
+    
+                        <div class="skills__img">
+                            <img src="img/skill.jpg" alt="">
+                        </div>
+                    </div>
+                </section>
+                <!--===== PORTFOLIO =====-->
+                
+                <h2 class="section-title">Parcours</h2>
+                <section class="timeline section">
+                    <div class="vtl">
+                        <div class="event">
+                            <p class="date">Janvier 2021 à aujourd'hui</p>
+                            <p class="txt">CEO et développeur à CodeLab drc.</p>
+                        </div>
+                        <div class="event">
+                            <p class="date">Octobre 2019 - Janvier 2021</p>
+                            <p class="txt">IT/DEV Departement Manager à Wealth Market.</p>
+                        </div>
+                        <div class="event">
+                            <p class="date">Octobre 2019 - Janvier 2021</p>
+                            <p class="txt">Backend Web Developer à Wenzeasy.</p>
+                        </div>
+                        <div class="event">
+                            <p class="date">Octobre 2019 - Avril 2020</p>
+                            <p class="txt">Développeur web Back-end à Epsilon.</p>
+                        </div>
+                        <div class="event">
+                            <p class="date">Avril 2018 - Octobre 2019</p>
+                            <p class="txt">Développeur web à Pensthi Team.</p>
+                        </div>
+                        <div class="event">
+                            <p class="date">Octobre 2016 - Novembre 2019</p>
+                            <p class="txt">Diplôme de niveau BAC+3 à l'Université de Lubumbashi.</p>
+                        </div>
+                    </div>
+                </section>
+                <section class="portfolio-realisation" id="portfolio">
+                    <div class="container">
+                        <div class="row">
+                            <div class="title text-center">
+                                <h2 class="section-title">Réalisations</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="filter-btn">
+                                <ul id="filterBtn">
+                                    <li class="active" data-target="all">Tout</li>
+                                    <li data-target="web">Front-end</li>
+                                    <li data-target="app">API Interface</li>
+                                    <li data-target="ui">Back-end</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="gallery">
+                                <div class="item" data-id="web">
+                                    <div class="inner">
+                                        <img src="./img/work1.jpg" alt="portfolio" />
+                                        <div class="overlay">
+                                            <span class="fa bx bx-plus"></span>
+                                            <h4>Tout</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item" data-id="web">
+                                    <div class="inner">
+                                        <img src="./img/work1.jpg" alt="portfolio" />
+                                        <div class="overlay">
+                                            <span class="fa bx bx-plus"></span>
+                                            <h4>Design Web</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item" data-id="app">
+                                    <div class="inner">
+                                        <img src="./img/work1.jpg" alt="portfolio" />
+                                        <div class="overlay">
+                                            <span class="fa bx bx-plus"></span>
+                                            <h4>App Interface</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item" data-id="app">
+                                    <div class="inner">
+                                        <img src="./img/work1.jpg" alt="portfolio" />
+                                        <div class="overlay">
+                                            <span class="fa bx bx-plus"></span>
+                                            <h4>Clone</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item" data-id="ui">
+                                    <div class="inner">
+                                        <img src="./img/work1.jpg" alt="portfolio" />
+                                        <div class="overlay">
+                                            <span class="fa bx bx-plus"></span>
+                                            <h4>UI/UX Design</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item" data-id="ui">
+                                    <div class="inner">
+                                        <img src="./img/work1.jpg" alt="portfolio" />
+                                        <div class="overlay">
+                                            <span class="fa bx bx-plus"></span>
+                                            <h4>UI/UX Design</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="portfolio section" id="portfolio">
+                    <h2 class="section-title">Blog</h2>
+    
+                    <div class="portfolio__container bd-grid">
+                        <div class="portfolio__img">
+                            <img src="img/work1.jpg" alt="">
+                            <div class="description-blog">
+                                <a href="#" class="portfolio__link-name">Héberger son site web sur github...</a>
+                            </div>
+                            <div class="portfolio__link">
+                                <a href="#" class="portfolio__link-name">Héberger son site web sur github...</a>
+                            </div>
+                        </div>
+                        <div class="portfolio__img">
+                            <img src="img/work2.jpg" alt="">
+                            <div class="description-blog">
+                                <a href="#" class="portfolio__link-name">Héberger son site web sur github...</a>
+                            </div>
+                            <div class="portfolio__link">
+                                <a href="#" class="portfolio__link-name">Héberger son site web sur github...</a>
+                            </div>
+                        </div>
+                        <div class="portfolio__img">
+                            <img src="img/work3.jpg" alt="">
+                            <div class="description-blog">
+                                <a href="#" class="portfolio__link-name">Héberger son site web sur github...</a>
+                            </div>
+                            <div class="portfolio__link">
+                                <a href="#" class="portfolio__link-name">Héberger son site web sur github...</a>
+                            </div>
+                        </div>
+                        <div class="portfolio__img">
+                            <img src="img/work4.jpg" alt="">
+                            <div class="description-blog">
+                                <a href="#" class="portfolio__link-name">Héberger son site web sur github...</a>
+                            </div>
+                            <div class="portfolio__link">
+                                <a href="#" class="portfolio__link-name">Héberger son site web sur github...</a>
+                            </div>
+                        </div>
+                        <div class="portfolio__img">
+                            <img src="img/work5.jpg" alt="">
+                            <div class="description-blog">
+                                <a href="#" class="portfolio__link-name">Héberger son site web sur github...</a>
+                            </div>
+                            <div class="portfolio__link">
+                                <a href="#" class="portfolio__link-name">Héberger son site web sur github...</a>
+                            </div>
+                        </div>
+                        <div class="portfolio__img">
+                            <img src="img/work6.jpg" alt="">
+                            <div class="description-blog">
+                                <a href="#" class="portfolio__link-name">Héberger son site web sur github...</a>
+                            </div>
+                            <div class="portfolio__link">
+                                <a href="#" class="portfolio__link-name">Héberger son site web sur github...</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- ====== Partie Contact -->
+                <section class="contact section" id="contact">
+                    <h2 class="section-title">Contact</h2>
+    
+                    <div class="contact__container bd-grid">
+                        <div class="contact__info">
+                            <h3 class="contact__subtitle">EMAIL</h3>
+                            <span class="contact__text">vanotis720@gmail.com</span>
+    
+                            <h3 class="contact__subtitle">PHONE</h3>
+                            <span class="contact__text">+243 975 927 559</span>
+    
+                            <h3 class="contact__subtitle">ADRESS</h3>
+                            <span class="contact__text">Lubumbashi, Gecamine</span>
+                        </div>
+    
+                        <form action="" class="contact__form">
+                            <div class="contact__inputs">
+                                <input type="text" placeholder="Name" class="contact__input">
+                                <input type="mail" placeholder="Email" class="contact__input">
+                            </div>
+    
+                            <textarea name="" placeholder="Votre message" cols="0" rows="10" class="contact__input"></textarea>
+    
+                            <input type="submit" value="Envoyer" class="contact__button">
+                        </form>
+                    </div>
+                </section>
+            </main>
+            <footer class="footer section">
+                <div class="footer__container bd-grid">
+                    <div class="footer__data">
+                        <h2 class="footer__title">Vander Otis</h2>
+                        <p class="footer__text">I'm Vander Otis and this is my personal website</p>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h2 class="footer__title">EXPLORE</h2>
+                        <ul>
+                            <li><a href="#home" class="footer__link"><i class="bx bx-right-arrow-alt"></i>Home</a></li>
+                            <li><a href="#about" class="footer__link"><i class="bx bx-right-arrow-alt"></i>About</a></li>
+                            <li><a href="#skills" class="footer__link"><i class="bx bx-right-arrow-alt"></i>Skills</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer__data">
+                        <h2 class="footer__title">Suivez-moi</h2>
+                        <ul>
+                            <li><a href="#home" class="footer__link"><i class="bx bx-right-arrow-alt"></i>Facebook</a></li>
+                            <li><a href="#about" class="footer__link"><i class="bx bx-right-arrow-alt"></i>Linkedin</a></a></li>
+                            <li><a href="#skills" class="footer__link"><i class="bx bx-right-arrow-alt"></i>Github</a></a></li>
+                        </ul>
+                    </div>
+    
+    
                 </div>
-
-
+            </footer>
+            <div class=" lightbox hide">
+                <span class="close-lightbox fa bx bx-window-close"></span>
+                <div class="card-content">
+                    <div class="block">
+                        <img src="" class="" alt="portfolio" /><br><br>
+                    </div>
+                    <div class="text-content">
+                        <p class="text-portfolio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias veniam eveniet, ad quisquam totam dicta, soluta quam delectus quidem quae atque modi impedit excepturi voluptatem nemo, similique possimus libero eos?</p>
+                        <div class="conten-icon-realisation">
+                            <a href="https://www.instagram.com/vanotis720/" class="realisation__social-icon"><i class='bx bx-globe' ></i></a>
+                        </div>
+                        <div class="conten-icon-realisation">
+                            <a href="https://github.com/vanotis720" class="realisation__social-icon"><i class='bx bxl-github' ></i></a>
+                        </div>
+                            
+                            
+                        
+                    </div>
+                </div>
             </div>
-        </footer>
+            
+        </div>
         <!--===== SCROLL REVEAL =====-->
         <script src="https://unpkg.com/scrollreveal"></script>
 

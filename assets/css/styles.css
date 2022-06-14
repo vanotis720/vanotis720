@@ -296,7 +296,7 @@ img{
   
 div.event {
     padding: 20px 30px;
-    background-color: #e4e1ff;
+    background-color: var(--white-color);
     position: relative;
     border-radius: 6px;
     margin-bottom: 10px;
@@ -347,14 +347,9 @@ div.event::after {
 /* Réalisations */
 
 /* Portfolio realisation */
-.row {
-    display: flex;
-    flex-wrap: wrap;
-}
 .portfolio-realisation {
     background-color: #fff;
-    
-    padding: 1rem 10rem;
+    padding: 100px 100px;
 }
 
 .portfolio .container .row .title h1::before {
@@ -488,13 +483,92 @@ div.event::after {
         opacity: 1;
     }
 }
-.description-blog{
+
+.lightbox {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.6);
     display: flex;
-    justify-content: space-between;
 }
-.auteur{
-    color: #5f88e0;
+
+.show {
+    display: flex;
+    padding: 0 10px;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
 }
+.card-content{
+    width: 50%;
+}
+.realisation__social-icon{
+    text-align: center;
+    font-style: 30px;
+}
+.conten-icon-realisation{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.hide {
+    display: none;
+}
+
+.close-lightbox {
+    height: 35px;
+    width: 35px;
+    background-color: #5f88e0;
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 101;
+}
+.text-portfolio{
+    z-index: 99;
+    color: #fff;
+}
+
+.bx-window-close{
+    font-size: 30px;
+}
+
+.lightbox img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+
+}
+
+.message {
+    background-color: #01143e;
+    padding: 40px 15px;
+}
+
+.message .message-text {
+    flex: 0 0 66.66%;
+    max-width: 66.66%;
+}
+
+.message .message-text h2 {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    line-height: 35px;
+}
+
+/* Portfolio Blog */
 
 /* ===== PORTFOLIO =====*/
 .portfolio{
@@ -680,7 +754,7 @@ div.event::after {
         grid-template-rows: repeat(2, 1fr);
         column-gap: 2rem;
     }
-
+    
     .contact__container{
         grid-template-columns: repeat(2, 1fr);
         justify-items: center;
@@ -709,7 +783,6 @@ div.event::after {
     }
     .home__img {
         width: 500px;
-        right: 24%;
     }
 }
 
@@ -723,6 +796,9 @@ div.event::after {
     }
     .portfolio-realisation{
         padding: 100px 15px;
+    }
+    .card-content{
+        width: 100%;
     }
 }
 
