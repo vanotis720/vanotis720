@@ -637,13 +637,18 @@ div.event::after {
     column-gap: 1rem;
 }
 .contact__input{
-    width: 100%;
+    min-width: 100%;
     padding: .8rem;
     outline: none;
     border: 1.5px solid var(--dark-color);
     font-size: var(--normal-font-size);
     margin-bottom: var(--mb-4);
-    border-radius: .5rem;
+    border-radius: .4rem;
+}
+textarea{
+    max-width: 100%;
+    max-height: 30vh;
+    min-height: 30vh;
 }
 .contact__button{
     display: block;
