@@ -10,7 +10,7 @@
 /*===== Colores =====*/
 :root{
     /* --first-color:#F17105; #F25F5C;#6610F2 */
-    --first-color: #6610F2;
+    --first-color: #193AC7;
     --white-color: #FAFAFF;
     --dark-color: #2A3B47;
     --text-color: #697477;
@@ -548,7 +548,7 @@ div.event::after {
     top: 0;
     bottom: 0;
     z-index: 100;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.9);
     display: flex;
 }
 

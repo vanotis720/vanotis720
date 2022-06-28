@@ -5,7 +5,7 @@ function showContent() {
     document.querySelector(".container-loader").classList.add("hidden");
     document.getElementById('app').classList.remove("none");
 }
-setTimeout(showContent, 5000);
+setTimeout(showContent, 3000);
 
 /*===== MENU SHOW =====*/ 
 const showMenu = (toggleId, navId) =>{
