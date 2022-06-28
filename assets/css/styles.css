@@ -721,7 +721,7 @@ textarea{
     outline: none;
     font-size: var(--normal-font-size);
     cursor: pointer;
-    transition: .s ease;
+    transition: .5s ease;
 }
 .contact__button:hover{
     background-color: var(--first-color);
