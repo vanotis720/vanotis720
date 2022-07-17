@@ -4,7 +4,11 @@
 
 # Hey! 👋 I'm Van! Nice to see you.
 
-[<img src="https://cdn.iconscout.com/icon/free/png-256/android-3521272-2944776.png" alt="android" width="100">](https://developer.android.com/reference)
+[<img src="https://img.icons8.com/officel/16/000000/php-logo.png" alt="php" width="100">](https://developer.android.com/reference)
+[<img src="https://img.icons8.com/fluency/48/000000/laravel.png" alt="Laravel" width="100">](https://developer.android.com/reference)
+[<img src="https://img.icons8.com/color/240/000000/javascript--v1.png" alt="javascript" width="100">](https://developer.android.com/reference)
+[<img src="https://img.icons8.com/windows/256/000000/nodejs.png" alt="NodeJS" width="100">](https://developer.android.com/reference)
+[<img src="https://img.icons8.com/ios/50/000000/react-native--v1.png" alt="react native" width="100">](https://developer.android.com/reference)
 
 [<img src="https://seeklogo.com/images/G/gmail-new-2020-logo-32DBE11BB4-seeklogo.com.png" alt="Gmail" width="65">](mailto:vanotis720@gmail.com)
 [<img src="https://cdn.iconscout.com/icon/free/png-256/telegram-3-226554.png" alt="telegram" width="50">](https://t.me/Vanotis720)
@@ -26,13 +30,14 @@
 ### Mes Derniers articles de blog
 
 <!-- BLOG-POST-LIST:START -->
+
 - [La mort d’Atom, l&#39;éditeur de texte de Github](https://blog.vanotis720.tech/la-mort-atom-editeur-de-texte-de-github)
 - [Héberger votre application laravel sur heroku&lpar;gratuitement&rpar;](https://blog.vanotis720.tech/heberger-votre-application-laravel-sur-heroku-gratuitement)
 - [Héberger votre portfolio sur Github](https://blog.vanotis720.tech/heberger-votre-portfolio-sur-github)
-- [Les 3 meilleures  API météo avec une option gratuite](https://blog.vanotis720.tech/les-3-meilleures-api-meteo-avec-une-option-gratuite)
+- [Les 3 meilleures API météo avec une option gratuite](https://blog.vanotis720.tech/les-3-meilleures-api-meteo-avec-une-option-gratuite)
 - [Développer un blog avec Laravel : Partie 3/5](https://blog.vanotis720.tech/developper-un-blog-avec-laravel-partie-3-5)
-<!-- BLOG-POST-LIST:END -->
-➡️ [more blog posts...](https://blog.vanotis720.tech)
+  <!-- BLOG-POST-LIST:END -->
+  ➡️ [more blog posts...](https://blog.vanotis720.tech)
 
 [vanotis720](https://github.com/vanotis720)
 
