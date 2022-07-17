@@ -4,11 +4,11 @@
 
 # Hey! 👋 I'm Van! Nice to see you.
 
-[<img src="https://img.icons8.com/officel/16/000000/php-logo.png" alt="php" width="100">](https://developer.android.com/reference)
-[<img src="https://img.icons8.com/fluency/48/000000/laravel.png" alt="Laravel" width="100">](https://developer.android.com/reference)
+[<img src="https://img.icons8.com/officel/240/000000/php-logo.png" alt="php" width="100">](https://developer.android.com/reference)
+[<img src="https://img.icons8.com/fluency/240/000000/laravel.png" alt="Laravel" width="100">](https://developer.android.com/reference)
 [<img src="https://img.icons8.com/color/240/000000/javascript--v1.png" alt="javascript" width="100">](https://developer.android.com/reference)
-[<img src="https://img.icons8.com/windows/256/000000/nodejs.png" alt="NodeJS" width="100">](https://developer.android.com/reference)
-[<img src="https://img.icons8.com/ios/50/000000/react-native--v1.png" alt="react native" width="100">](https://developer.android.com/reference)
+[<img src="https://img.icons8.com/color/240/000000/nodejs.png" alt="NodeJS" width="100">](https://developer.android.com/reference)
+[<img src="https://img.icons8.com/color/240/000000/react-native.png" alt="react native" width="100">](https://developer.android.com/reference)
 
 [<img src="https://seeklogo.com/images/G/gmail-new-2020-logo-32DBE11BB4-seeklogo.com.png" alt="Gmail" width="65">](mailto:vanotis720@gmail.com)
 [<img src="https://cdn.iconscout.com/icon/free/png-256/telegram-3-226554.png" alt="telegram" width="50">](https://t.me/Vanotis720)
