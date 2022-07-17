@@ -39,6 +39,4 @@
   <!-- BLOG-POST-LIST:END -->
   ➡️ [more blog posts...](https://blog.vanotis720.tech)
 
-[vanotis720](https://github.com/vanotis720)
-
-Last Edited on: 16/07/2022
+Last Edited on: 17/07/2022
