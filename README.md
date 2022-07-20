@@ -1,6 +1,6 @@
 <!--suppress HtmlDeprecatedAttribute -->
 
-[<img align='right' src="https://media.giphy.com/media/R03zWv5p1oNSQd91EP/giphy.gif" width="220" alt="giphy">](https://t.me/Vanotis720)
+[<img align='right' src="https://media.giphy.com/media/R03zWv5p1oNSQd91EP/giphy.gif" width="220" alt="giphy">](https://vanotis720.tech)
 
 # Hey! 👋 I'm Van! Nice to see you.
 
@@ -10,10 +10,12 @@
 [<img src="https://img.icons8.com/color/240/000000/nodejs.png" alt="NodeJS" width="100">](https://developer.android.com/reference)
 [<img src="https://img.icons8.com/color/240/000000/react-native.png" alt="react native" width="100">](https://developer.android.com/reference)
 
-[<img src="https://seeklogo.com/images/G/gmail-new-2020-logo-32DBE11BB4-seeklogo.com.png" alt="Gmail" width="65">](mailto:vanotis720@gmail.com)
+[<img src="https://img.icons8.com/color/48/000000/domain--v1.png" alt="portfolio" width="65">](https://vanotis720.tech)
+[<img src="https://img.icons8.com/bubbles/256/000000/important-mail.png" alt="Mail pro" width="65">](mailto:business@vanotis720.tech)
+[<img src="https://img.icons8.com/color/256/000000/linkedin.png" alt="linkedin" width="50">](https://www.linkedin.com/in/vanotis720/)
 [<img src="https://cdn.iconscout.com/icon/free/png-256/telegram-3-226554.png" alt="telegram" width="50">](https://t.me/Vanotis720)
-[<img src="https://cdn.iconscout.com/icon/free/png-256/telegram-3-226554.png" alt="devclub" width="50">](https://t.me/+WSYGCp4PpkY1YjA8)
-[<img src="https://cdn.iconscout.com/icon/free/png-256/stackoverflow-2752065-2284882.png" alt="stackoverflow" width="50">](https://stackoverflow.com/users/13278252/vanotis720)
+[<img src="https://img.icons8.com/color/256/000000/twitter--v1.png" alt="telegram" width="50">](https://twitter.com/otis_vander)
+[<img src="https://img.icons8.com/fluency/256/000000/instagram-new.png" alt="telegram" width="50">](https://www.instagram.com/vanotis720/)
 
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=vanotis720&theme=gotham&show_icons=true&count_private=true&hide_title=true&hide_border=true)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vanotis720&layout=default&theme=gotham&hide=html&hide_border=true&card_width=330)
@@ -30,12 +32,13 @@
 ### Mes Derniers articles de blog
 
 <!-- BLOG-POST-LIST:START -->
+
 - [La mort d’Atom, l&#39;éditeur de texte de Github](https://blog.vanotis720.tech/la-mort-atom-editeur-de-texte-de-github)
 - [Héberger votre application laravel sur heroku&lpar;gratuitement&rpar;](https://blog.vanotis720.tech/heberger-votre-application-laravel-sur-heroku-gratuitement)
 - [Héberger votre portfolio sur Github](https://blog.vanotis720.tech/heberger-votre-portfolio-sur-github)
-- [Les 3 meilleures  API météo avec une option gratuite](https://blog.vanotis720.tech/les-3-meilleures-api-meteo-avec-une-option-gratuite)
+- [Les 3 meilleures API météo avec une option gratuite](https://blog.vanotis720.tech/les-3-meilleures-api-meteo-avec-une-option-gratuite)
 - [Développer un blog avec Laravel : Partie 3/5](https://blog.vanotis720.tech/developper-un-blog-avec-laravel-partie-3-5)
-<!-- BLOG-POST-LIST:END -->
+  <!-- BLOG-POST-LIST:END -->
   ➡️ [more blog posts...](https://blog.vanotis720.tech)
 
 Last Edited on: 17/07/2022
