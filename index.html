@@ -1,358 +1,397 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
 
-        <!-- ===== CSS ===== -->
-        <link rel="stylesheet" href="assets/css/styles.css">
-        <!-- ===== BOX ICONS ===== -->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>Vander Otis</title>
-        <style>
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- ===== BOX ICONS ===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
-        </style>
-    </head>
-    <body>
-        <div class="container-loader">
-            <div class="loader">
-                <div class="cercle"></div>
-                <div class="cercle"></div>
-            </div>
+    <title>Vander Otis</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="container-loader">
+        <div class="loader">
+            <div class="cercle"></div>
+            <div class="cercle"></div>
         </div>
-        <!--===== HEADER =====-->
-        <div id="app">
-            <header class="l-header">
-                <nav class="nav bd-grid">
+    </div>
+    <!--===== HEADER =====-->
+    <div id="app">
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Vander Otis</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
+                        <li class="nav__item"><a href="https://blog.vanotis720.tech" class="nav__link">Blog</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home" id="home">
+                <div class="home__container bd-grid">
+                    <h1 class="home__title"><span>Hello</span><br>sir.</h1>
+                    <p class="home__text"></p>
+                    <img src="assets/img/otis.png" alt="" class="home__img">
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section" id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/otis.png" alt="">
+                    </div>
+
                     <div>
-                        <a href="#" class="nav__logo">Vander Otis</a>
-                    </div>
-    
-                    <div class="nav__menu" id="nav-menu">
-                        <ul class="nav__list">
-                            <li class="nav__item"><a href="#home" class="nav__link active">Accueil</a></li>
-                            <li class="nav__item"><a href="#about" class="nav__link">Apropos</a></li>
-                            <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                            <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
-                            <li class="nav__item"><a href="https://blog.vanotis720.tech" class="nav__link">blog</a></li>
-                            <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-                        </ul>
-                    </div>
-    
-                    <div class="nav__toggle" id="nav-toggle">
-                        <i class='bx bx-menu'></i>
-                    </div>
-                </nav>
-            </header>
-    
-            <main class="l-main">
-                <!--===== HOME =====-->
-                <section class="home" id="home">
-                    <div class="home__container bd-grid">
-                        <h1 class="home__title"><span>Bon</span><br>jour.</h1>
-                        <p class="home__text"></p>
-                        <img src="assets/img/otis.png" alt="" class="home__img">
-                    </div>
-                </section>
-                
-                <!--===== ABOUT =====-->
-                <section class="about section" id="about">
-                    <h2 class="section-title">A propos</h2>
-    
-                    <div class="about__container bd-grid">
-                        <div class="about__img">
-                            <img src="assets/img/otis.png" alt="">
-                        </div>
-    
-                        <div>
-                            <h2 class="about__subtitle">I'am Vander Otis</h2>
-                            <span class="about__profession">Fullstack web and mobile developer</span>
-                            <p class="about__text">Je suis un développeur des solutions informatiques, co-fondateur et CEO de <a href="https://www.codelabdrc.com">CodeLab DRC</a>.</p>
-    
-                            <div class="about__social">
-                                <a href="https://www.instagram.com/vanotis720/" class="about__social-icon"><i class='bx bxl-instagram' ></i></a>
-                                <a href="https://twitter.com/otis_vander?t=1idTH_k_50XZH9Q6xuiAyw&s=09" class="about__social-icon"><i class='bx bxl-twitter' ></i></a>
-                                <a href="https://github.com/vanotis720" class="about__social-icon"><i class='bx bxl-github' ></i></a>
-                                <a href="https://www.linkedin.com/in/vanotis720/" class="about__social-icon"><i class='bx bxl-linkedin' ></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                 <!--===== SKILLS =====-->
-                 <section class="skills section" id="skills">
-                    <h2 class="section-title">Skills</h2>
-    
-                    <div class="skills__container bd-grid">
-                        <div class="skills__box">
-                            <h3 class="skills__subtitle">Back-end</h3>
-                            <span class="skills__name">PHP</span>
-                            <span class="skills__name">Laravel</span>
-                            <span class="skills__name">SQL/MYSQL</span>
-                            <span class="skills__name">Javascript/NodeJS(AdonisJS)</span>
-                            
-                            <h3 class="skills__subtitle">Front-end</h3>
-                            <span class="skills__name">CSS</span>
-                            <span class="skills__name">Bootstrap</span>
-                            <span class="skills__name">Javascript</span>
-    
-                            <h3 class="skills__subtitle">Mobile</h3>
-                            <span class="skills__name">React native</span>
+                        <h2 class="about__subtitle">I'am Vander Otis</h2>
+                        <span class="about__profession">Fullstack web and mobile developer</span>
+                        <p class="about__text">
+                            I am a software developer, co-founder and CEO of <a
+                                href="https://www.codelabdrc.com">CodeLab DRC</a>. <br>
+                            I have a passion for creating beautiful and functional websites and applications.
+                        </p>
+                        <p class="about_text">
+                            I help you digitize your business with customized digital tools.
+                        </p>
 
-                            <h3 class="skills__subtitle">Gestion des projets</h3>
-                            <span class="skills__name">SCRUM</span>
-                        </div>
-    
-                        <div class="skills__img">
-                            <img src="img/skill.jpg" alt="">
-                        </div>
-                    </div>
-                </section>
-                <!--===== PORTFOLIO =====-->
-                
-                <h2 class="section-title">Parcours</h2>
-                <section class="timeline section">
-                    <div class="vtl">
-                        <div class="event">
-                            <p class="date">Janvier 2021 à aujourd'hui</p>
-                            <p class="txt">CEO et développeur à CodeLab drc.</p>
-                        </div>
-                        <div class="event">
-                            <p class="date">Octobre 2019 - Janvier 2021</p>
-                            <p class="txt">IT/DEV Departement Manager à Wealth Market.</p>
-                        </div>
-                        <div class="event">
-                            <p class="date">Octobre 2019 - Janvier 2021</p>
-                            <p class="txt">Backend Web Developer à Wenzeasy.</p>
-                        </div>
-                        <div class="event">
-                            <p class="date">Octobre 2019 - Avril 2020</p>
-                            <p class="txt">Développeur web Back-end à Epsilon.</p>
-                        </div>
-                        <div class="event">
-                            <p class="date">Avril 2018 - Octobre 2019</p>
-                            <p class="txt">Développeur web à Pensthi Team.</p>
-                        </div>
-                        <div class="event">
-                            <p class="date">Octobre 2016 - Novembre 2019</p>
-                            <p class="txt">Diplôme de niveau BAC+3 à l'Université de Lubumbashi.</p>
+                        <div class="about__social">
+                            <br>
+                            <p>Let's talk about it</p>
+                            <br>
+                            <a href="https://www.instagram.com/vanotis720/" class="about__social-icon"><i
+                                    class='bx bxl-instagram'></i></a>
+                            <a href="https://twitter.com/otis_vander" class="about__social-icon"><i
+                                    class='bx bxl-twitter'></i></a>
+                            <a href="https://github.com/vanotis720" class="about__social-icon"><i
+                                    class='bx bxl-github'></i></a>
+                            <a href="https://www.linkedin.com/in/vanotis720/" class="about__social-icon"><i
+                                    class='bx bxl-linkedin'></i></a>
                         </div>
                     </div>
-                </section>
-                <section class="portfolio-realisation" id="portfolio">
-                    <div class="container">
-                        <div class="row">
-                            <div class="title text-center">
-                                <h2 class="section-title">Réalisations</h2>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="filter-btn">
-                                <ul id="filterBtn">
-                                    <li class="active" data-target="all">Tout</li>
-                                    <li data-target="web">Front-end</li>
-                                    <li data-target="app">Mobile</li>
-                                    <li data-target="ui">Back-end</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="gallery">
-                                <div class="item" data-id="web">
-                                    <div class="inner">
-                                        <img src="./img/work1.jpg" alt="portfolio" />
-                                        <div class="overlay">
-                                            <span class="fa bx bx-plus"></span>
-                                            <h4>Tout</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item" data-id="web">
-                                    <div class="inner">
-                                        <img src="./img/work1.jpg" alt="portfolio" />
-                                        <div class="overlay">
-                                            <span class="fa bx bx-plus"></span>
-                                            <h4>Design Web</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item" data-id="app">
-                                    <div class="inner">
-                                        <img src="./img/work1.jpg" alt="portfolio" />
-                                        <div class="overlay">
-                                            <span class="fa bx bx-plus"></span>
-                                            <h4>App Interface</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item" data-id="app">
-                                    <div class="inner">
-                                        <img src="./img/work1.jpg" alt="portfolio" />
-                                        <div class="overlay">
-                                            <span class="fa bx bx-plus"></span>
-                                            <h4>Clone</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item" data-id="ui">
-                                    <div class="inner">
-                                        <img src="./img/work1.jpg" alt="portfolio" />
-                                        <div class="overlay">
-                                            <span class="fa bx bx-plus"></span>
-                                            <h4>UI/UX Design</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item" data-id="ui">
-                                    <div class="inner">
-                                        <img src="./img/work1.jpg" alt="portfolio" />
-                                        <div class="overlay">
-                                            <span class="fa bx bx-plus"></span>
-                                            <h4>UI/UX Design</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section class="portfolio section" id="portfolio">
-                    <h2 class="section-title">Blog</h2>
-    
-                    <div class="portfolio__container bd-grid">
-                        <div class="portfolio__img">
-                            <img src="img/work1.jpg" alt="">
-                            <div class="description-blog">
-                                <a href="#" class="portfolio__link-name">Héberger son site web sur github...</a>
-                            </div>
-                            <div class="portfolio__link">
-                                <a href="#" class="portfolio__link-name">Héberger son site web sur github...</a>
-                            </div>
-                        </div>
-                        <div class="portfolio__img">
-                            <img src="img/work2.jpg" alt="">
-                            <div class="description-blog">
-                                <a href="#" class="portfolio__link-name">Héberger son site web sur github...</a>
-                            </div>
-                            <div class="portfolio__link">
-                                <a href="#" class="portfolio__link-name">Héberger son site web sur github...</a>
-                            </div>
-                        </div>
-                        <div class="portfolio__img">
-                            <img src="img/work3.jpg" alt="">
-                            <div class="description-blog">
-                                <a href="#" class="portfolio__link-name">Héberger son site web sur github...</a>
-                            </div>
-                            <div class="portfolio__link">
-                                <a href="#" class="portfolio__link-name">Héberger son site web sur github...</a>
-                            </div>
-                        </div>
-                        <div class="portfolio__img">
-                            <img src="img/work4.jpg" alt="">
-                            <div class="description-blog">
-                                <a href="#" class="portfolio__link-name">Héberger son site web sur github...</a>
-                            </div>
-                            <div class="portfolio__link">
-                                <a href="#" class="portfolio__link-name">Héberger son site web sur github...</a>
-                            </div>
-                        </div>
-                        <div class="portfolio__img">
-                            <img src="img/work5.jpg" alt="">
-                            <div class="description-blog">
-                                <a href="#" class="portfolio__link-name">Héberger son site web sur github...</a>
-                            </div>
-                            <div class="portfolio__link">
-                                <a href="#" class="portfolio__link-name">Héberger son site web sur github...</a>
-                            </div>
-                        </div>
-                        <div class="portfolio__img">
-                            <img src="img/work6.jpg" alt="">
-                            <div class="description-blog">
-                                <a href="#" class="portfolio__link-name">Héberger son site web sur github...</a>
-                            </div>
-                            <div class="portfolio__link">
-                                <a href="#" class="portfolio__link-name">Héberger son site web sur github...</a>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!-- ====== Partie Contact -->
-                <section class="contact section" id="contact">
-                    <h2 class="section-title">Contact</h2>
-    
-                    <div class="contact__container bd-grid">
-                        <div class="contact__info">
-                            <h3 class="contact__subtitle">EMAIL</h3>
-                            <span class="contact__text">business@vanotis720.tech</span>
-    
-                            <h3 class="contact__subtitle">PHONE</h3>
-                            <span class="contact__text">+243 974 944 879</span>
-    
-                            <h3 class="contact__subtitle">ADRESSE</h3>
-                            <span class="contact__text">Lubumbashi, Gecamine</span>
-                        </div>
-    
-                        <form action="" class="contact__form">
-                            <div class="contact__inputs">
-                                <input type="text" placeholder="Name" class="contact__input">
-                                <input type="mail" placeholder="Email" class="contact__input">
-                            </div>
-    
-                            <textarea name="" placeholder="Votre message" cols="0" rows="10" class="contact__input"></textarea>
-    
-                            <input type="submit" value="Envoyer" class="contact__button">
-                        </form>
-                    </div>
-                </section>
-            </main>
-            <footer class="footer section">
-                <div class="footer__container bd-grid">
-                    <div class="footer__data">
-                        <h2 class="footer__title">Vander Otis</h2>
-                        <p class="footer__text">Je vous aide à digitaliser votre entreprise avec des outils numériques sur mesure.</p>
-                    </div>
-    
-                    <div class="footer__data">
-                        <h2 class="footer__title">EXPLORE</h2>
-                        <ul>
-                            <li><a href="#home" class="footer__link"><i class="bx bx-right-arrow-alt"></i>Home</a></li>
-                            <li><a href="#about" class="footer__link"><i class="bx bx-right-arrow-alt"></i>About</a></li>
-                            <li><a href="#skills" class="footer__link"><i class="bx bx-right-arrow-alt"></i>Skills</a></li>
-                        </ul>
-                    </div>
-                    
-                    <div class="footer__data">
-                        <h2 class="footer__title">Suivez-moi</h2>
-                        <ul>
-                            <li><a href="https://www.instagram.com/vanotis720/" class="footer__link"><i class="bx bx-right-arrow-alt"></i>Instagram</a></li>
-                            <li><a href="https://twitter.com/otis_vander?t=1idTH_k_50XZH9Q6xuiAyw&s=09" class="footer__link"><i class="bx bx-right-arrow-alt"></i>Twitter</a></a></li>
-                            <li><a href="https://github.com/vanotis720" class="footer__link"><i class="bx bx-right-arrow-alt"></i>Github</a></a></li>
-                            <li><a href="https://www.linkedin.com/in/vanotis720/" class="footer__link"><i class="bx bx-right-arrow-alt"></i>Linkedin</a></a></li>
-                        </ul>
-                    </div>
-    
-    
                 </div>
-            </footer>
-            <div class=" lightbox hide">
-                <span class="close-lightbox fa bx bx-window-close"></span>
-                <div class="card-content">
-                    <div class="block">
-                        <img src="" class="" alt="portfolio" /><br><br>
+            </section>
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">
+                    <div class="skills__box">
+                        <h3 class="skills__subtitle">Back-end</h3>
+                        <span class="skills__name">PHP</span>
+                        <span class="skills__name">Laravel</span>
+                        <span class="skills__name">SQL/MYSQL</span>
+                        <span class="skills__name">NodeJS</span>
+                        <span class="skills__name">AdonisJS</span>
+
+
+                        <h3 class="skills__subtitle">Front-end</h3>
+                        <span class="skills__name">Javascript</span>
+                        <span class="skills__name">CSS</span>
+                        <span class="skills__name">Bootstrap</span>
+                        <span class="skills__name">TailwindCSS</span>
+
+                        <h3 class="skills__subtitle">Mobile</h3>
+                        <span class="skills__name">React native</span>
+
+                        <h3 class="skills__subtitle">Project management</h3>
+                        <span class="skills__name">SCRUM</span>
                     </div>
-                    <div class="text-content">
-                        <p class="text-portfolio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias veniam eveniet, ad quisquam totam dicta, soluta quam delectus quidem quae atque modi impedit excepturi voluptatem nemo, similique possimus libero eos?</p>
-                        <div class="conten-icon-realisation">
-                            <a href="" class="realisation__social-icon">Voir le code</a>
+
+                    <div class="skills__img">
+                        <img src="img/skill.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+            <!--===== PORTFOLIO =====-->
+
+            <!-- <h2 class="section-title">Parcours</h2>
+            <section class="timeline section">
+                <div class="vtl">
+                    <div class="event">
+                        <p class="date">Janvier 2021 à aujourd'hui</p>
+                        <p class="txt">CEO et développeur à CodeLab drc.</p>
+                    </div>
+                    <div class="event">
+                        <p class="date">Octobre 2019 - Janvier 2021</p>
+                        <p class="txt">IT/DEV Departement Manager à Wealth Market.</p>
+                    </div>
+                    <div class="event">
+                        <p class="date">Octobre 2019 - Janvier 2021</p>
+                        <p class="txt">Backend Web Developer à Wenzeasy.</p>
+                    </div>
+                    <div class="event">
+                        <p class="date">Octobre 2019 - Avril 2020</p>
+                        <p class="txt">Développeur web Back-end à Epsilon.</p>
+                    </div>
+                    <div class="event">
+                        <p class="date">Avril 2018 - Octobre 2019</p>
+                        <p class="txt">Développeur web à Pensthi Team.</p>
+                    </div>
+                    <div class="event">
+                        <p class="date">Octobre 2016 - Novembre 2019</p>
+                        <p class="txt">Diplôme de niveau BAC+3 à l'Université de Lubumbashi.</p>
+                    </div>
+                </div>
+            </section> -->
+
+            <section class="portfolio-realisation" id="portfolio">
+                <div class="container">
+                    <div class="row">
+                        <div class="title text-center">
+                            <h2 class="section-title">Achievements</h2>
                         </div>
-                        <div class="conten-icon-realisation">
-                            <a href="" class="realisation__social-icon">Voir la demo</a>
-                        </div>     
+                    </div>
+                    <div class="row">
+                        <div class="filter-btn">
+                            <ul id="filterBtn">
+                                <li class="active" data-target="all">All</li>
+                                <li data-target="web">Web</li>
+                                <li data-target="app">Mobile</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="gallery">
+                            <div class="item" data-id="web">
+                                <div class="inner">
+                                    <img src="./img/portfolio/codelab-drc.png" alt="codelab website" />
+                                    <div class="overlay">
+                                        <a href="https://codelabdrc.com">
+                                            <span class="fa bx bx-show"></span>
+                                        </a>
+                                        <h4>CodeLab</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item" data-id="web">
+                                <div class="inner">
+                                    <img src="./img/portfolio/bangwela-service.png" alt="Bangwela service" />
+                                    <div class="overlay">
+                                        <a href="https://www.bangwela-services.com/">
+                                            <span class="fa bx bx-show"></span>
+                                        </a>
+                                        <h4>Bangwela service</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item" data-id="web">
+                                <div class="inner">
+                                    <img src="./img/portfolio/kongochildren.png" alt="kongo children" />
+                                    <div class="overlay">
+                                        <a href="https://www.kongochildren.org/">
+                                            <span class="fa bx bx-show"></span>
+                                        </a>
+                                        <h4>Kongo children</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item" data-id="web">
+                                <div class="inner">
+                                    <img src="./img/portfolio/maydelice.png" alt="may delice" />
+                                    <div class="overlay">
+                                        <a href="https://maydelice.com/">
+                                            <span class="fa bx bx-show"></span>
+                                        </a>
+                                        <h4>May Délice patisserie</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item" data-id="app">
+                                <div class="inner">
+                                    <img src="./img/portfolio/pomotodo.png" alt="portfolio" />
+                                    <div class="overlay">
+                                        <a href="https://play.google.com/store/apps/details?id=com.vanotis720.pomotodo">
+                                            <span class="fa bx bx-show"></span>
+                                        </a>
+                                        <h4>Pomotodo</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item" data-id="app">
+                                <div class="inner">
+                                    <img src="./img/portfolio/movielist.png" alt="portfolio" />
+                                    <div class="overlay">
+                                        <a
+                                            href="https://play.google.com/store/apps/details?id=com.vanotis720.movielist">
+                                            <span class="fa bx bx-show"></span>
+                                        </a>
+                                        <h4>MovieList</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- <section class="portfolio section" id="blog">
+                <h2 class="section-title">Blog</h2>
+
+                <div class="portfolio__container bd-grid">
+                    <div class="portfolio__img">
+                        <img src="img/work1.jpg" alt="">
+                        <div class="description-blog">
+                            <a href="#" class="portfolio__link-name">Héberger son site web sur github...</a>
+                        </div>
+                        <div class="portfolio__link">
+                            <a href="#" class="portfolio__link-name">Héberger son site web sur github...</a>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="img/work2.jpg" alt="">
+                        <div class="description-blog">
+                            <a href="#" class="portfolio__link-name">Héberger son site web sur github...</a>
+                        </div>
+                        <div class="portfolio__link">
+                            <a href="#" class="portfolio__link-name">Héberger son site web sur github...</a>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="img/work3.jpg" alt="">
+                        <div class="description-blog">
+                            <a href="#" class="portfolio__link-name">Héberger son site web sur github...</a>
+                        </div>
+                        <div class="portfolio__link">
+                            <a href="#" class="portfolio__link-name">Héberger son site web sur github...</a>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="img/work4.jpg" alt="">
+                        <div class="description-blog">
+                            <a href="#" class="portfolio__link-name">Héberger son site web sur github...</a>
+                        </div>
+                        <div class="portfolio__link">
+                            <a href="#" class="portfolio__link-name">Héberger son site web sur github...</a>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="img/work5.jpg" alt="">
+                        <div class="description-blog">
+                            <a href="#" class="portfolio__link-name">Héberger son site web sur github...</a>
+                        </div>
+                        <div class="portfolio__link">
+                            <a href="#" class="portfolio__link-name">Héberger son site web sur github...</a>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="img/work6.jpg" alt="">
+                        <div class="description-blog">
+                            <a href="#" class="portfolio__link-name">Héberger son site web sur github...</a>
+                        </div>
+                        <div class="portfolio__link">
+                            <a href="#" class="portfolio__link-name">Héberger son site web sur github...</a>
+                        </div>
+                    </div>
+                </div>
+            </section> -->
+            <!-- ====== Partie Contact -->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">EMAIL</h3>
+                        <span class="contact__text">business@vanotis720.tech</span><br>
+                        <span class="contact__text">v.makadi@codelabdrc.com</span>
+
+
+                        <h3 class="contact__subtitle">PHONE</h3>
+                        <span class="contact__text">+243 974 944 879</span>
+                    </div>
+
+                    <!-- <form action="" class="contact__form">
+                        <div class="contact__inputs">
+                            <input type="text" placeholder="Name" class="contact__input">
+                            <input type="mail" placeholder="Email" class="contact__input">
+                        </div>
+
+                        <textarea name="" placeholder="Votre message" cols="0" rows="10"
+                            class="contact__input"></textarea>
+
+                        <input type="submit" value="Envoyer" class="contact__button">
+                    </form> -->
+                </div>
+            </section>
+        </main>
+        <footer class="footer section">
+            <div class="footer__container bd-grid">
+                <div class="footer__data">
+                    <h2 class="footer__title">VANDER OTIS</h2>
+                    <p class="footer__text">I help you digitize your business with customized digital tools.</p>
+                </div>
+
+                <div class="footer__data">
+                    <h2 class="footer__title">EXPLORE</h2>
+                    <ul>
+                        <li><a href="#home" class="footer__link"><i class="bx bx-right-arrow-alt"></i>Home</a></li>
+                        <li><a href="#about" class="footer__link"><i class="bx bx-right-arrow-alt"></i>About</a></li>
+                        <li><a href="#skills" class="footer__link"><i class="bx bx-right-arrow-alt"></i>Skills</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__data">
+                    <h2 class="footer__title">FOLLOW ME</h2>
+                    <ul>
+                        <li><a href="https://www.instagram.com/vanotis720/" class="footer__link"><i
+                                    class="bx bx-right-arrow-alt"></i>Instagram</a></li>
+                        <li><a href="https://twitter.com/otis_vander" class="footer__link"><i
+                                    class="bx bx-right-arrow-alt"></i>Twitter</a></a></li>
+                        <li><a href="https://github.com/vanotis720" class="footer__link"><i
+                                    class="bx bx-right-arrow-alt"></i>Github</a></a></li>
+                        <li><a href="https://www.linkedin.com/in/vanotis720/" class="footer__link"><i
+                                    class="bx bx-right-arrow-alt"></i>Linkedin</a></a></li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </footer>
+        <div class=" lightbox hide">
+            <span class="close-lightbox fa bx bx-window-close"></span>
+            <div class="card-content">
+                <div class="block">
+                    <img src="" class="" alt="portfolio" /><br><br>
+                </div>
+                <div class="text-content">
+                    <p class="text-portfolio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias veniam
+                        eveniet, ad quisquam totam dicta, soluta quam delectus quidem quae atque modi impedit excepturi
+                        voluptatem nemo, similique possimus libero eos?</p>
+                    <div class="conten-icon-realisation">
+                        <a href="" class="realisation__social-icon">Voir le code</a>
+                    </div>
+                    <div class="conten-icon-realisation">
+                        <a href="" class="realisation__social-icon">Voir la demo</a>
                     </div>
                 </div>
             </div>
         </div>
-         <!--===== MAIN JS =====-->
-        <script src="assets/js/main.js"></script>
-    </body>
+    </div>
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+</body>
+
 </html>
