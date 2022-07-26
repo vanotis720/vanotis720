@@ -32,11 +32,11 @@
 ### Mes Derniers articles de blog
 
 <!-- BLOG-POST-LIST:START -->
+- [Apprendre React Native: Introduction](https://blog.vanotis720.tech/apprendre-react-native-introduction)
 - [La mort d’Atom, l&#39;éditeur de texte de Github](https://blog.vanotis720.tech/la-mort-atom-editeur-de-texte-de-github)
 - [Héberger votre application laravel sur heroku&lpar;gratuitement&rpar;](https://blog.vanotis720.tech/heberger-votre-application-laravel-sur-heroku-gratuitement)
 - [Héberger votre portfolio sur Github](https://blog.vanotis720.tech/heberger-votre-portfolio-sur-github)
 - [Les 3 meilleures  API météo avec une option gratuite](https://blog.vanotis720.tech/les-3-meilleures-api-meteo-avec-une-option-gratuite)
-- [Développer un blog avec Laravel : Partie 3/5](https://blog.vanotis720.tech/developper-un-blog-avec-laravel-partie-3-5)
 <!-- BLOG-POST-LIST:END -->
   ➡️ [more blog posts...](https://blog.vanotis720.tech)
 
