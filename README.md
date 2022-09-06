@@ -32,11 +32,11 @@
 ### Mes Derniers articles de blog
 
 <!-- BLOG-POST-LIST:START -->
+- [Apprendre React Native - initialisation du projet et structure des dossier](https://blog.vanotis720.tech/apprendre-react-native-initialisation-du-projet-et-structure-des-dossier)
 - [Apprendre React Native - Installations Des Outils](https://blog.vanotis720.tech/apprendre-react-native-installations-des-outils)
 - [Apprendre React Native: Introduction](https://blog.vanotis720.tech/apprendre-react-native-introduction)
 - [La mort d’Atom, l&#39;éditeur de texte de Github](https://blog.vanotis720.tech/la-mort-atom-editeur-de-texte-de-github)
 - [Héberger votre application laravel sur heroku&lpar;gratuitement&rpar;](https://blog.vanotis720.tech/heberger-votre-application-laravel-sur-heroku-gratuitement)
-- [Héberger votre portfolio sur Github](https://blog.vanotis720.tech/heberger-votre-portfolio-sur-github)
 <!-- BLOG-POST-LIST:END -->
   ➡️ [more blog posts...](https://blog.vanotis720.tech)
 
