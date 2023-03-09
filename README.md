@@ -1,7 +1,3 @@
-<!--suppress HtmlDeprecatedAttribute -->
-
-[<img align='right' src="https://media.giphy.com/media/R03zWv5p1oNSQd91EP/giphy.gif" width="220" alt="giphy">](https://vanotis720.tech)
-
 # Salut 👋 Je suis Van ! Ravi de te voir sur mon petit profil bien sympa 
 
 [<img src="https://img.icons8.com/officel/240/000000/php-logo.png" alt="php" width="100">](https://developer.android.com/reference)
