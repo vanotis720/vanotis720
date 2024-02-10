@@ -1,4 +1,4 @@
-# Salut 👋 Je suis Van ! Ravi de te voir sur mon petit profil bien sympa 
+# Salut 👋 C'est Van, Développeur Web et Mobile indépendant et Coach en Développement web.
 
 [<img src="https://img.icons8.com/officel/240/000000/php-logo.png" alt="php" width="100">](https://developer.android.com/reference)
 [<img src="https://img.icons8.com/fluency/240/000000/laravel.png" alt="Laravel" width="100">](https://developer.android.com/reference)
