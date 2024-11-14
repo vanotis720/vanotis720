@@ -1,4 +1,7 @@
-# Salut 👋 C'est Van, Développeur et Coach Web et Mobile.
+# Salut 👋 C'est Van, Développeur et Coach Web et Mobile. 
+
+[![committers.top badge](https://user-badge.committers.top/congo_kinshasa_private/vanotis720.svg)](https://user-badge.committers.top/congo_kinshasa_private/vanotis720)
+
 
 [<img src="https://img.icons8.com/officel/240/000000/php-logo.png" alt="php" width="100">](https://developer.android.com/reference)
 [<img src="https://img.icons8.com/fluency/240/000000/laravel.png" alt="Laravel" width="100">](https://developer.android.com/reference)
@@ -8,8 +11,6 @@
 
 [<img src="https://img.icons8.com/color/48/000000/domain--v1.png" alt="portfolio" width="65">](https://maelconception.tech/)
 [<img src="https://img.icons8.com/fluency/256/000000/instagram-new.png" alt="telegram" width="50">](https://www.instagram.com/vanotis720/)
-
-[![committers.top badge](https://user-badge.committers.top/congo_kinshasa_private/vanotis720.svg)](https://user-badge.committers.top/congo_kinshasa_private/vanotis720)
 
 <!-- ![GitHub stats](https://github-readme-stats.vercel.app/api?username=vanotis720&theme=gotham&show_icons=true&count_private=true&hide_title=true&hide_border=true)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vanotis720&layout=default&theme=gotham&hide=html&hide_border=true&card_width=330) -->
