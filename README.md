@@ -16,7 +16,7 @@
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vanotis720&layout=default&theme=gotham&hide=html&hide_border=true&card_width=330) -->
 
 ![trophy](https://github-profile-trophy.vercel.app/?username=vanotis720&theme=onestar&no-frame=true&column=3&row=2)
-![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=vanotis720&theme=gotham&hide_border=true&date_format=M%20j%5B%2C%20Y%5D)
+[![GitHub Streak](https://streak-stats.demolab.com?user=vanotis720&theme=dark&hide_border=true&locale=fr&date_format=j%20M%5B%20Y%5D&exclude_days=Sun%2CSat)](https://git.io/streak-stats)
 
 [![wakatime](https://wakatime.com/badge/user/8cc8aa38-4041-409b-9d27-a85e5b897ad4.svg?style=social)](https://wakatime.com/@9a9afc35-35cf-436c-987d-5d8645dc2a42)
 [<img alt="GitHub User's stars" src="https://img.shields.io/github/stars/vanotis720?affiliations=OWNER%2CCOLLABORATOR%2CORGANIZATION_MEMBER&label=Total%20user%20stars%20in%20all%20repo&logoColor=red&style=social">](https://github.com/vanotis720?tab=repositories&q=&type=&language=&sort=stargazers)
